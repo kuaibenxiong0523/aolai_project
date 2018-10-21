@@ -11,7 +11,7 @@ from selenium.common.exceptions import TimeoutException
 [(用例编号,手机号,密码,tag,tag_message,预期结果)]
 """
 
-
+# 添加了一行注释，配合jenkins定时器使用
 def get_login_data():
     # 结果列表
     login_list = []
